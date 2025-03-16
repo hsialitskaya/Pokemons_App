@@ -12,10 +12,10 @@ Pokémons Explorer is an interactive app that allows users to explore and browse
 
 Pokémons Explorer is built using the following technologies:
 
-📍 React
-📍 Next.js
-📍 CSS
-📍 API Integration (for fetching Pokémon data)
+📍 React  
+📍 Next.js  
+📍 CSS  
+📍 API Integration (for fetching Pokémon data)  
 
 
 # 🏁 Getting Started
