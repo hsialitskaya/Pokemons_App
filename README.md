@@ -27,7 +27,7 @@ To get started with the Pokémons Explorer, follow these steps:
 Download the repository to your local machine by running the following command in your terminal:  
 
 ```bash
-git clone https://github.com/https://github.com/hsialitskaya/Pokemons_App.git Pokemons-Explorer
+git clone https://github.com/hsialitskaya/Pokemons_App.git Pokemons-Explorer
 ```
 
 2️⃣ Install Dependencies
