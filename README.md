@@ -45,7 +45,7 @@ npm run dev
 This will launch the app locally, and you can view it in your browser at **http://localhost:3001**.
 
  ## License
-Memo Game: Animal and Color Matching is licensed under the MIT License. See [LICENSE](https://github.com/hsialitskaya/Pokemons_App/blob/main/LICENSE) for more information.    
+Pokémons Explorer is licensed under the MIT License. See [LICENSE](https://github.com/hsialitskaya/Pokemons_App/blob/main/LICENSE) for more information.    
 
 
 Happy coding and have fun exploring the world of Pokémon! 🎉
