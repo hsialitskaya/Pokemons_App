@@ -1,0 +1,9 @@
+node_modules/ 
+build/
+.env
+.vscode/ 
+.idea/ 
+jsconfig.json 
+.next/ 
+next.config.mjs 
+.DS_Store     

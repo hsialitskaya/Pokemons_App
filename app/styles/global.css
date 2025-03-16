@@ -1,0 +1,248 @@
+body {
+  background-color: lightgoldenrodyellow;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  padding: 10px;
+  background-color: lightsalmon;
+  border-radius: 10px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ol {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: lightgrey;
+}
+
+#nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: lightsalmon;
+}
+#nav img {
+  width: 1000px;
+}
+label {
+  margin-right: 10px;
+}
+
+input,
+select,
+textarea {
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: lightsalmon 2px 2px 2px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: lightsalmon 2px 2px 2px;
+  background-color: white;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: lightsalmon;
+  box-shadow: 0 0 5px lightsalmon;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemon-card {
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+}
+
+.pokemon-card img {
+  width: 100%;
+  height: auto;
+}
+
+#fav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#breadcrumb {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#compare {
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+#choose_list {
+  border-radius: 10px;
+  border: 2px solid lightsalmon;
+  width: 450px;
+  padding: 10px;
+}
+
+#choose_list button {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: lightsalmon;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#choose_list h2 {
+  color: lightsalmon;
+}
+
+#choose_list li {
+  margin-bottom: 10px;
+}
+
+#choose_list ul {
+  list-style: upper-roman;
+  font-weight: 15px;
+}
+
+.comparison-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.comparison-container > div {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.pokemon-comparison-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 1;
+  background: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.pokemon-comparison-card ul {
+  text-align: left;
+}
+
+.comparison-container img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.comparison-container button,
+.note_page button {
+  margin-top: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: lightsalmon;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.note_page button {
+  margin: 10px;
+}
+
+.note_page button:hover {
+  background-color: rgb(251, 136, 91);
+  font-weight: bold;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.search_compare {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search_compare button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: lightsalmon;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-left: 10px;
+}
