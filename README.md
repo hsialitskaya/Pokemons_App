@@ -31,6 +31,7 @@ git clone https://github.com/hsialitskaya/Pokemons_App.git Pokemons-Explorer
 ```
 
 2️⃣ Install Dependencies  
+
 Ensure you have Node.js installed on your system. Then, navigate to the project directory and install the required dependencies:
 ```bash
 cd Pokemons-Explorer
@@ -38,6 +39,7 @@ npm install
 ```
 
 3️⃣ Run the Application   
+
 Once the dependencies are installed, start the development server by running:
 ```bash
 npm run dev
