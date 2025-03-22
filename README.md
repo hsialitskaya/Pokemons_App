@@ -22,7 +22,7 @@ Pokémons Explorer is built using the following technologies:
 
 To get started with the Pokémons Explorer, follow these steps:
 
-1️⃣ Clone the Repository  
+1️⃣ Clone the Repository    
 
 Download the repository to your local machine by running the following command in your terminal:  
 
@@ -30,14 +30,14 @@ Download the repository to your local machine by running the following command i
 git clone https://github.com/hsialitskaya/Pokemons_App.git Pokemons-Explorer
 ```
 
-2️⃣ Install Dependencies
+2️⃣ Install Dependencies  
 Ensure you have Node.js installed on your system. Then, navigate to the project directory and install the required dependencies:
 ```bash
 cd Pokemons-Explorer
 npm install
 ```
 
-3️⃣ Run the Application
+3️⃣ Run the Application   
 Once the dependencies are installed, start the development server by running:
 ```bash
 npm run dev
